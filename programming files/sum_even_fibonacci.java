@@ -1,4 +1,5 @@
-public class sum_even_fibonacci {
+//mg
+ublic class sum_even_fibonacci {
     public static void main(String[] args) {
         int a = 0, b = 1;
         int sumEven = 0;
