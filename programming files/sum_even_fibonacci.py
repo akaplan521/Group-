@@ -1,4 +1,4 @@
-# mg
+# bugs introduced: removed w from while - mg
 a, b = 0, 1
 sum_even = 0
 hile b < 4000000:
