@@ -1,3 +1,5 @@
+//Bugs introduced: AM
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +8,7 @@ public class remove_duplicates {
 
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
-        for (int i = 0; i < arr.size(); i++) {
+        for (int i = 0; i < arr.size(); i--) {
             if (!uniqueArr.contains(arr.get(i))) {
                 uniqueArr.add(arr.get(i));
             } else {
